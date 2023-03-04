@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Raleway:wght@500;600&family=Roboto+Mono:ital,wght@0,400;0,500;1,400&family=Roboto:wght@400;500&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.heading {
+  font-family: 'Roboto Mono';
+}
+
+.grid-main{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 15px;
+  margin-top: 4rem;
+}
+
+.grid-child{
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.grid-child:hover {
+  background-color: whitesmoke;
+  color: #212121;
+}
+
+.grid-child h3 {
+  font-family: 'Roboto Mono';
+}
+
+.grid-child p {
+  font-family: 'Roboto Mono';
+  font-size: 0.8rem;
+}
+
+.textarea{
+  font-size: 1rem;
+  padding: 10px;
+  font-family: 'Roboto Mono';
+  border-radius: 10px;
+}
+
+.action-btn{
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  font-family: 'Roboto Mono';
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.result-text {
+  font-family: 'Roboto Mono';
+  font-size: 1 rem;
+  line-height: 2.5rem;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
